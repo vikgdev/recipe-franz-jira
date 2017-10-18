@@ -1,0 +1,17 @@
+{
+  "id": "jira",
+  "name": "Jira",
+  "version": "1.0.0",
+  "description": "Jira",
+  "main": "index.js",
+  "author": "Victor Garica <vikgarcia.dev@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.atlassian.net",
+    "hasNotificationSound": false,
+    "hasDirectMessages": false,
+    "hasIndirectMessages": false,
+    "hasTeamId": true,
+    "urlInputSuffix": ".atlassian.net"
+  }
+}
